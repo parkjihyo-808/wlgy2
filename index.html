@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>반가워요!</title>
+    <style>
+        /* 전체적인 밝은 분위기 설정 */
+        body { 
+            background-color: #f0faff; /* 아주 연한 하늘색 배경 */
+            text-align: center; 
+            font-family: 'Apple SD Gothic Neo', sans-serif; 
+            padding: 50px 20px;
+            margin: 0;
+        }
+
+        /* 이름 부분 스타일 */
+        .title-area {
+            background: white;
+            display: inline-block;
+            padding: 20px 40px;
+            border-radius: 50px; /* 알약 모양 */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            margin-bottom: 50px;
+        }
+
+        h1 { color: #5dade2; margin: 0; font-size: 28px; }
+        span.emoji { font-size: 35px; vertical-align: middle; }
+
+        /* 카드 스타일 */
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+
+        .card:hover { transform: translateY(-10px); }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        .card h3 {
+            background: #ebf5fb;
+            color: #2e86c1;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        p { color: #888; font-size: 15px; }
+    </style>
+</head>
+<body>
+
+    <div class="title-area">
+        <h1><span class="emoji">⭐</span> 안녕하세요, [박지효]입니다! <span class="emoji">⭐</span></h1>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="cat.peg">
+            <h3>🎬 금동이</h3>
+            <p>사랑하는 동생이예요.</p>
+        </div>
+
+        <div class="card">
+            <img src="book.jpg">
+            <h3>🍰 책 읽기</h3>
+            <p>소설을 정말 좋아해요.</p>
+        </div>
+
+        <div class="card">
+            <img src="matcha,jpg">
+            <h3>🐶 말차맛 간식</h3>
+            <p>너무 단 말차 보단 씁쓸한 말차를 더 좋아해요.</p>
+        </div>
+    </div>
+
+</body>
+</html>
